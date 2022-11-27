@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_admin_registration.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_admin_registration_theme($existing, $type, $theme, $path) {
+    return [
+      'userlogintime' => [
+        'variables' => [
+            'location' => null,
+        ],
+        'template'  => 'userlogintime',
+      ],
+    ];
+  }

@@ -1,0 +1,6 @@
+name: 'custom_admin_registration'
+type: module
+description: 'My Admin Config Module'
+core: 8.x
+package: 'Custom'
+core_version_requirement: ^8 || ^9

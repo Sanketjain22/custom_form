@@ -1,0 +1,55 @@
+    {% if location == "America/Chicago" %}
+    <p>  {{ "now"|date("H:i", "America/Chicago") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+    {% elseif location == "Asia/Dubai" %}
+    <p>  {{ "now"|date("H:i", "Asia/Dubai") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+    {% elseif location == "Asia/Tokyo" %}
+    <p>  {{ "now"|date("H:i", "Asia/Tokyo") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% elseif location == "Asia/Kolkata" %}
+    <p>  {{ "now"|date("H:i", "Asia/Kolkata") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% elseif location == "America/New_York" %}
+    <p>  {{ "now"|date("H:i", "America/New_York") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% elseif location == "Europe/Amsterdam" %}
+    <p>  {{ "now"|date("H:i", "Europe/Amsterdam") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% elseif location == "Europe/Amsterdam" %}
+    <p>  {{ "now"|date("H:i", "Europe/Amsterdam") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% elseif location == "Europe/Oslo" %}
+    <p>  {{ "now"|date("H:i", "Europe/Oslo") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+
+   {% else %}
+   {% if location == "Europe/London" %}
+    <p>  {{ "now"|date("H:i", "Europe/London") }}
+    <p> {{ "now"|date("l") }} , {{ "now"|date("d M Y") }} </p>
+    <p>Times in {{location}} </p>
+   {% endif %}
+   {% endif %}
+
+
+
+
+
+
+
+    
