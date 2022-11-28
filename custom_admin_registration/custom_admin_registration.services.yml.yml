@@ -1,0 +1,9 @@
+custom_admin_registration.default_form:
+  path: '/admin/config/custom_admin_registration/default'
+  defaults:
+    _form: '\Drupal\custom_admin_registration\Form\DefaultForm'
+    _title: 'AdminConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
